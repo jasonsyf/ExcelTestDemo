@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\github\ExcelTestDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\github\ExcelTestDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_aca70027365426f2d678b224f4bc45a58cadbc53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\github\ExcelTestDemo\app\build\intermediates\exploded-aar\com.blankj\utilcode\1.5.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="59694929a1ce0bbc8c62001d80a921d6f8e1a331">
+        <dex dex="D:\github\ExcelTestDemo\app\build\intermediates\pre-dexed\debug\com.blankj-utilcode-1.5.1_0730a11f43e849642edbcfed4e3e3f4c90338bb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\androidSDK\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\github\ExcelTestDemo\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_6bfe98d43ffde836d31515ce5ff852a34882aace.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\github\ExcelTestDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\github\ExcelTestDemo\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_19e0703d4ccf1ec0f2019b174abab39d01aca55b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\github\ExcelTestDemo\app\libs\jxl.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="955fa72ef2e3d5a45db59d84802401f75bc973a5">
+        <dex dex="D:\github\ExcelTestDemo\app\build\intermediates\pre-dexed\debug\jxl_0127c875df96771c5b75493ca109156a5c17a155.jar" />
+    </item>
+
+</items>

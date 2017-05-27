@@ -1,0 +1,470 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0f0f0"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/family_bill_name"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d0d0d0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/family_bill_food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:text="食物支出"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/family_bill_food_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/family_bill_food"
+                android:background="@null"
+                android:hint="请填写金额"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:textColor="#9f9f9f"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="#d0d0d0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/family_bill_articles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:text="日用品项"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/family_bill_articles_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/family_bill_articles"
+                android:background="@null"
+                android:hint="请填写金额"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:textColor="#9f9f9f"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="#d0d0d0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/family_bill_traffic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:text="交通话费"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/family_bill_traffic_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/family_bill_traffic"
+                android:background="@null"
+                android:hint="请填写金额"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:textColor="#9f9f9f"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="#d0d0d0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/family_bill_travel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:text="旅游出行"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/family_bill_travel_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/family_bill_travel"
+                android:background="@null"
+                android:hint="请填写金额"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:textColor="#9f9f9f"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="#d0d0d0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/family_bill_clothes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:text="穿着支出"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/family_bill_clothes_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/family_bill_clothes"
+                android:background="@null"
+                android:hint="请填写金额"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:textColor="#9f9f9f"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="#d0d0d0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/family_bill_doctor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:text="医疗保健"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/family_bill_doctor_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/family_bill_doctor"
+                android:background="@null"
+                android:hint="请填写金额"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:textColor="#9f9f9f"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d0d0d0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/family_bill_laiwang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:text="人情客往"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/family_bill_laiwang_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/family_bill_laiwang"
+                android:background="@null"
+                android:hint="请填写金额"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:textColor="#9f9f9f"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="#d0d0d0" />
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="44dp"-->
+            <!--android:background="#FFFFFF" >-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/family_bill_baby"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="宝宝专项"-->
+                <!--android:textColor="#333333"-->
+                <!--android:textSize="16sp" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/family_bill_baby_edt"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_marginLeft="18dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_toRightOf="@id/family_bill_baby"-->
+                <!--android:background="@null"-->
+                <!--android:hint="请填写金额"-->
+                <!--android:inputType="numberDecimal"-->
+                <!--android:maxLength="5"-->
+                <!--android:textColor="#9f9f9f"-->
+                <!--android:textSize="13sp" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1px"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="#d0d0d0" />-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="44dp"-->
+            <!--android:background="#FFFFFF" >-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/family_bill_live"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="户租水电"-->
+                <!--android:textColor="#333333"-->
+                <!--android:textSize="16sp" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/family_bill_live_edt"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_marginLeft="18dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_toRightOf="@id/family_bill_live"-->
+                <!--android:background="@null"-->
+                <!--android:hint="请填写金额"-->
+                <!--android:inputType="numberDecimal"-->
+                <!--android:maxLength="5"-->
+                <!--android:textColor="#9f9f9f"-->
+                <!--android:textSize="13sp" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1px"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="#d0d0d0" />-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="44dp"-->
+            <!--android:background="#FFFFFF" >-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/family_bill_other"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="其它支出"-->
+                <!--android:textColor="#333333"-->
+                <!--android:textSize="16sp" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/family_bill_other_edt"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_marginLeft="18dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_toRightOf="@id/family_bill_other"-->
+                <!--android:background="@null"-->
+                <!--android:hint="请填写金额"-->
+                <!--android:inputType="numberDecimal"-->
+                <!--android:maxLength="5"-->
+                <!--android:textColor="#9f9f9f"-->
+                <!--android:textSize="13sp" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1px"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="#d0d0d0" />-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/family_bill_remark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:text="备注说明"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/family_bill_remark_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/family_bill_remark"
+                android:background="@null"
+                android:hint="请填写金额"
+                android:maxLength="5"
+                android:textColor="#9f9f9f"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d0d0d0" />
+
+        <Button
+            android:id="@+id/family_bill_save"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/common_btn_selector"
+            android:padding="0dp"
+            android:text="确定保存"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d0d0d0" />
+
+        <Button
+            android:id="@+id/family_bill_clear"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/common_btn_selector"
+            android:padding="0dp"
+            android:text="清除缓存"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</ScrollView>

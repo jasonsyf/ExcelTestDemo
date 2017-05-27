@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\github\\ExcelTestDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_btn_normal.9.png",
+        "source": "D:\\github\\ExcelTestDemo\\app\\src\\main\\res\\drawable-hdpi\\common_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\github\\familybill1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\github\\familybill1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\github\\familybill1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_btn_normal.9.png",
+        "source": "D:\\github\\familybill1\\app\\src\\main\\res\\drawable-hdpi\\common_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\github\\familybill1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_enable_false_bg.9.png",
+        "source": "D:\\github\\familybill1\\app\\src\\main\\res\\drawable-hdpi\\button_enable_false_bg.9.png"
+    },
+    {
+        "merged": "D:\\github\\ExcelTestDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\github\\ExcelTestDemo\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\github\\ExcelTestDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_enable_false_bg.9.png",
+        "source": "D:\\github\\ExcelTestDemo\\app\\src\\main\\res\\drawable-hdpi\\button_enable_false_bg.9.png"
+    }
+]

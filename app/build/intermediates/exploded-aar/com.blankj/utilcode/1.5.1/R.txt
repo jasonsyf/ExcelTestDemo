@@ -1,0 +1,2 @@
+int id statusbarutil_fake_status_bar_view 0x7f020000
+int id statusbarutil_translucent_view 0x7f020001
